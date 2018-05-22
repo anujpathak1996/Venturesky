@@ -1,0 +1,37 @@
+body{
+	padding-left: 43%;
+	font-size: 20px;
+	padding-top: 3%;
+}
+
+input{
+	width: 266px;
+	height: 20px;
+}
+
+table{
+	padding-top: 30px;
+}
+
+td{
+	padding: 10px;	
+}
+
+.row{
+	padding: 5px;
+}
+
+#anime{
+	font-size: 30px;
+	text-align: left;
+	padding: 10px;
+}
+
+#ratings{
+	font-size: 30px;
+	padding-left: 16px;
+}
+
+.rate{
+	padding-left: 30px;
+}

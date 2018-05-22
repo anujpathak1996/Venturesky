@@ -1,0 +1,3 @@
+It's a simple non-working responsive nav bar with help of HTML and CSS only. 
+
+P.S. The functionality to the button is not given.

@@ -1,0 +1,86 @@
+*, html {
+    margin:0;
+    padding:0;  			
+}
+
+#navbar{
+	background: black;
+	height: 50px;
+	width: 100%;
+}
+
+ul{
+	color: white;
+	list-style-type: none;
+}
+
+li ul li {
+    display: block;
+    float: none;
+}
+
+ul li a:hover + .hidden, .hidden:hover {
+    display: block;
+}
+
+li{
+	float: left;
+	display: inline-block;
+}
+
+.left{
+	padding-top: 17px;
+	padding-left: 2%;
+}
+
+#four{
+	padding-top: 17px;
+	padding-left: 59%;
+}
+
+#five{
+	padding-top: 17px;
+	padding-left: 2%;
+}
+
+#logo{
+	height: 50px;
+}
+
+@media only screen and (min-width: 500px) {
+    #four {
+		padding-top: 17px;
+		padding-left: 60%;
+    }
+	#five{
+		padding-top: 17px;
+		padding-left: 2%;
+	}
+}
+
+button{
+	display: none;
+}
+
+@media only screen and (max-width: 500px) {
+	body{
+		background: white;
+	}
+	span{
+		display: none;
+	}
+	button{
+		display: block;
+		height: 50px;
+		width: 50px;
+	}
+}
+
+@media (max-width: 920px) and (min-width: 500px) {
+	#four{
+		padding-left: 32%;
+	}
+	#five{
+		padding-left: 2%;
+	}
+}

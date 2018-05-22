@@ -1,0 +1,2 @@
+It is a table search filter.
+On entering any input it filters the result.
